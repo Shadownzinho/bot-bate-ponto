@@ -1,0 +1,15 @@
+{
+  "name": "discord-ponto-avancado",
+  "version": "4.0.0",
+  "description": "Bot de ponto para Discord multi-servidor com painel, SQLite, ponto automático por call e histórico semanal.",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^13.0.3",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1"
+  }
+}
